@@ -43,3 +43,64 @@ body {
     padding: 20px;
     line-height: 1.6;
 }
+/* СБРОС отступов браузера */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Шрифт Enthalpy */
+@font-face {
+    font-family: 'Enthalpy298';
+    src: url("fonts/enthalpy298regular.woff") format("woff");
+}
+
+/* Баннер-картинка БАЗОВЫЙ */
+.hero-image {
+    width: 100vw;
+    height: 35vh;
+    min-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+/* ВЕРТИКАЛЬНО (телефоны + планшеты портрет) */
+@media (orientation: portrait) {
+    .hero-image {
+        height: 35vh;      /* Треть экрана */
+        object-fit: cover; /* Заполнено */
+    }
+}
+
+/* ГОРИЗОНТАЛЬНО (ПК + планшеты альбомно) */
+@media (orientation: landscape) {
+    .hero-image {
+        height: 50vh;      /* Половина экрана */
+        max-height: 600px;
+        object-fit: contain; /* Полная картинка */
+    }
+}
+
+/* Основной контент */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    line-height: 1.6;
+}
