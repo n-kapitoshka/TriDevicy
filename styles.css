@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Enthalpy298";
+  src: url("fonts/enthalpy298regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Стили для заголовка "Три девицы" */
+h1 {
+  font-family: "Enthalpy298", Arial, sans-serif;
+  font-size: 3rem;    /* кегель — размер шрифта */
+  color: #2c3e50;     /* цвет текста */
+}
