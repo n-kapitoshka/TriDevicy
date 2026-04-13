@@ -1,19 +1,35 @@
-/* 1. ОТСТУПЫ = 0 */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* 1. ОТСТУПЫ */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
 }
-<!-- ПЕРВЫЙ БЛОК -->
-<section class="block1">
-    <img src="images/фон огонь.jpg" class="hero-image" alt="Проект">
-    <h1>НАЗВАНИЕ ПРОЕКТА</h1>
-</section>
 
-/* АДАПТАЦИЯ ДЛЯ ПК — В КОНЕЦ styles.css */
-@media (min-width: 850px) {
-    .hero-image {
-        height: 50vh;  /* выше на ПК */
-        object-position: left; /* прижимает справа */
-    }
+/* ШРИФТ */
+@font-face {
+    font-family: 'Enthalpy298';
+    src: url('fonts/enthalpy298regular.woff');
+}
+
+/* 1. ПЕРВЫЙ БЛОК */
+.block1 { 
+    height: 33vh; 
+    position: relative; 
+}
+
+.hero-image { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+h1 { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-family: 'Enthalpy298', sans-serif; 
+    font-size: 2.5rem; 
+    color: white; 
+    text-align: center; 
 }
