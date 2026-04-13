@@ -34,13 +34,14 @@ h1 {
 }
 .authors {
     font-family: 'BebasNeue', sans-serif; 
-    font-size: 1rem; 
+    font-size: 0,8rem; 
+    position: absolute;
+    width: 100%;  /* ПО ВСЕЙ КАРТИНКЕ */
     display: flex; 
-    justify-content: center;
-    gap: 2rem;
-    margin-bottom: 1rem;
+    justify-content: space-between;  /* К КРАЯМ экрана */
+    padding: 0 5%;  /* ОТСТУП от краёв */
+    top: 15%;  /* ВЫШЕ заголовка */
     white-space: nowrap; 
-    max-width: 100%; 
     overflow: hidden; 
 }
 .title { 
