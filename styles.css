@@ -1,34 +1,45 @@
+/* СБРОС отступов браузера */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Шрифт Enthalpy */
 @font-face {
     font-family: 'Enthalpy298';
     src: url("fonts/enthalpy298regular.woff") format("woff");
 }
 
-h1 {
-    font-family: 'Enthalpy298', 'Helvetica', sans-serif;  
-    font-size: 4rem;
-    color: black;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 20px 0;
-}
-
-body {
-    font-family: Helvetica, sans-serif;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
+/* Баннер-картинка — полная треть экрана */
 .hero-image {
     width: 100vw;
     height: 35vh;
+    min-height: 300px;
+    max-height: 500px;
     object-fit: cover;
-    object-position: center;
-    display: block;
-    margin: 0; 
-    padding: 0;
-    position: relative; 
+    object-position: center center;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
     left: 50%;
     right: 50%;
     margin-left: -50vw;
-    margin-right: -50vw; 
+    margin-right: -50vw;
+}
+
+/* Основной контент */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    line-height: 1.6;
 }
