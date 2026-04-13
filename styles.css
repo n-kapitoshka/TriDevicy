@@ -4,3 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+<!-- ПЕРВЫЙ БЛОК -->
+<section class="block1">
+    <img src="images/фон огонь.jpg" class="hero-image" alt="Проект">
+    <h1>НАЗВАНИЕ ПРОЕКТА</h1>
+</section>
