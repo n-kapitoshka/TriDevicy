@@ -1,9 +1,5 @@
 /* 1. ОТСТУПЫ */
-* { 
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
 /* ШРИФТ */
 @font-face {
@@ -12,10 +8,7 @@
 }
 
 /* 1. ПЕРВЫЙ БЛОК */
-.block1 { 
-    height: 33vh; 
-    position: relative; 
-}
+.block1 { height: 33vh; position: relative; }
 
 .hero-image { 
     width: 100%; 
@@ -25,11 +18,13 @@
 
 h1 { 
     position: absolute; 
-    top: 50%; left: 50%; 
-    transform: translate(-50%, -50%); 
-    font-family: 'Enthalpy298', sans-serif; 
-    font-size: 12.5rem;     /* 2.5rem × 5 = 12.5rem */
-    color: white; 
+    top: 30%; 
+    left: 50%; 
+    transform: translateX(-50%); 
     text-align: center; 
-    text-transform: uppercase; /* КАПС всегда */
+    text-transform: uppercase; 
+    line-height: 1.2;
 }
+
+.authors { font-size: 4rem; display: block; }
+.title { font-size: 8rem; display: block; }
