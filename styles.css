@@ -21,8 +21,14 @@ body {
 .hero-image {
     width: 100vw;
     height: 35vh;
-    max-height: cover;
+    object-fit: cover;
+    object-position: center;
     display: block;
-    margin: 0;
+    margin: 0; 
     padding: 0;
+    position: relative; 
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw; 
 }
