@@ -5,39 +5,3 @@
 @font-face { font-family: 'Enthalpy298'; src: url('fonts/enthalpy298regular.woff'); }
 @font-face { font-family: 'BebasNeue'; src: url('fonts/Bebas-Neue-Pro-SemiExpanded-Book.woff'); }
 
-/* 1. ПЕРВЫЙ БЛОК */
-.block1 { 
-    height: 33vh; 
-    position: relative; 
-}
-
-.hero-image {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    z-index: 1 !important;
-}
-h1 { 
-    position: absolute; 
-    top: 15%; left: 50%; 
-    transform: translateX(-50%); 
-    color: white; 
-    z-index: 2;
-    width: 90%; 
-    text-align: center;
-}
-
-.authors { 
-    font-size: 1rem; 
-    display: flex; 
-    justify-content: space-between; 
-    margin-bottom: 1rem;
-}
-
-.title { 
-    font-size: 5rem; 
-    line-height: 0.8;
-}
