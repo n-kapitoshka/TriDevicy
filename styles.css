@@ -23,7 +23,7 @@ h1 {
 }
 .authors { 
     position: absolute; 
-    top: 12%; 
+    top: 8%; 
     left: 0; 
     right: 0; 
     font-family: 'Bebas', sans-serif; 
@@ -43,11 +43,15 @@ h1 {
     font-family: 'Enthalpy298', sans-serif; 
     font-size: 4rem; 
     line-height: 0.8;
+    color: white; 
     display: block;
     text-align: center;
     width: 90%; 
 }
 .art { 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
     font-family: 'Bebas', sans-serif; 
     font-size: 1rem; 
 }
