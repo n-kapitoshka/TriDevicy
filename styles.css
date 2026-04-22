@@ -21,7 +21,7 @@
 }
 h1 { 
     position: absolute; 
-    top: 35%; 
+    top: 20%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     line-height: 0.8;
@@ -30,7 +30,9 @@ h1 {
 }
 .authors { 
     font-family: 'BebasNeue', sans-serif; 
-    font-size: 2rem; 
+    font-size: 1rem; 
     display: block; 
     margin-bottom: 1rem;
+    white-space: nowrap;  /* НЕ переносит строку */
+    max-width: 100%;      /* не выходит за картинку */
 }
