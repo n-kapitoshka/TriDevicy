@@ -44,7 +44,7 @@ h1 {
     font-family: 'Enthalpy298', sans-serif; 
     font-size: 4rem; 
     line-height: 0.8;
-    color: white; 
+    color: black; 
     display: block;
     text-align: center;
     width: 90%; 
@@ -54,6 +54,6 @@ h1 {
     bottom: 10%;
     left: 50%; 
     font-family: 'Bebas', sans-serif; 
-    font-size: 1rem; 
+    font-size: 0.7rem; 
     color: black; 
 }
