@@ -53,7 +53,9 @@ h1 {
     position: absolute; 
     bottom: 10%;
     left: 50%; 
+    transform: translateX(-50%);
     font-family: 'Bebas', sans-serif; 
     font-size: 0.7rem; 
     color: black; 
+    text-align: center;
 }
