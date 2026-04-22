@@ -3,7 +3,7 @@
 
 /* ШРИФТЫ */
 @font-face { font-family: 'Enthalpy298'; src: url('fonts/enthalpy298regular.woff'); }
-@font-face { font-family: 'BravoSC'; src: url('fonts/fonts/BravoSC.woff'); }
+@font-face { font-family: 'Bebas'; src: url('fonts/fonts/Bebas-Neue-Pro-SemiExpanded-Book.woff.woff'); }
 
 /* 1. БЛОК 1 */
 .block1 { 
@@ -29,7 +29,7 @@ h1 {
     text-align: center; 
 }
 .authors { 
-    font-family: 'BravoSC', sans-serif; 
+    font-family: 'Bebas', sans-serif; 
     font-size: 1rem; 
     width: 100%;
     display: block; 
