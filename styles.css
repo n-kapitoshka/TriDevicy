@@ -50,7 +50,7 @@ h1 {
 }
 .art { 
     position: absolute; 
-    bottom: 10%;
+    bottom: 8%;
     left: 50%; 
     transform: translateX(-50%);
     font-family: 'Bebas', sans-serif; 
