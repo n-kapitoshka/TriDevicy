@@ -58,3 +58,5 @@ h1 {
     color: white; 
     text-align: center;
 }
+/* 1. БЛОК 2 */
+.block1 { height: 33vh; position: relative; overflow: hidden;}
