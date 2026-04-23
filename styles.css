@@ -69,7 +69,7 @@ h1 {
     top: 0; left: 0;}
 .annotation1 { 
     position: absolute; 
-    top: 15%;
+    top: 10%;
     bottom: 15%;
     left: 50%; 
     transform: translateX(-50%);
@@ -80,7 +80,11 @@ h1 {
     white-space: nowrap;  /* НЕ переносит строку */
     max-width: 100%;}     /* не выходит за картинку */
 .annotation2 { 
-    position: absolute;}
+    position: absolute;    
+    left: 10%; 
+    right: 10%;     
+    transform: translateX(-50%);
+    font-family: 'Enthalpy298', sans-serif; }
 
 /* БЛОК 3 */
 .hero-image { 
