@@ -76,12 +76,14 @@ h1 {
     font-size: 0.9rem; 
     color: #c1c1c1; 
     text-align: center;
-    margin-bottom: 0.7rem;
+    margin-bottom: 2vh;
     max-width: 90%;}
 .new {
     position: absolute;
     bottom: 15%;
     left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 2vh;
 }
 .book {
     position: absolute;
