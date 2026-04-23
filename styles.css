@@ -82,6 +82,7 @@ h1 {
     position: absolute; 
     left: 50%; 
     transform: translateX(-50%);
+    display: block;
     font-family: 'BravoSC', sans-serif; 
     font-size: 0.9rem; 
     color: #c1c1c1; 
