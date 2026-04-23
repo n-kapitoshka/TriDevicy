@@ -76,6 +76,15 @@ h1 {
     text-align: center;
     white-space: nowrap;  /* НЕ переносит строку */
     max-width: 100%;}     /* не выходит за картинку */
+.annotation2 { 
+    position: absolute; 
+    left: 50%; 
+    transform: translateX(-50%);
+    font-family: 'BravoSC', sans-serif; 
+    font-size: 0.9rem; 
+    color: #c1c1c1; 
+    text-align: center;
+    max-width: 100%;}     /* не выходит за картинку */
     
 /* БЛОК 3 */
 .hero-image { 
