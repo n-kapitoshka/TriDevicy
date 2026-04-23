@@ -80,16 +80,17 @@ h1 {
     white-space: nowrap;  /* НЕ переносит строку */
     max-width: 100%;}     /* не выходит за картинку */
 .annotation2 { 
-    position: absolute; 
+    position: absolute;
+    display: block;
     top: 20%;
     bottom: 15%;
-    left: 5%; 
+    left: 50%; 
     transform: translateX(-50%);
     font-family: 'Book', sans-serif; 
     font-size: 0.9rem; 
     color: #c1c1c1; 
     text-align: center;
-    max-width: 90%;}     /* не выходит за картинку */
+    width: 85%;}     /* не выходит за картинку */
     
 /* БЛОК 3 */
 .hero-image { 
