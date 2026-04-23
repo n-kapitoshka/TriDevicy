@@ -58,6 +58,7 @@ h1 {
     font-size: 0.7rem; 
     color: #c1c1c1; 
     text-align: center;}
+
 /* БЛОК 2 */
 .hero-image { 
     width: 100%; 
@@ -78,7 +79,8 @@ h1 {
     max-width: 100%;}     /* не выходит за картинку */
 .annotation2 { 
     position: absolute; 
-    left: 50%; 
+    left: 10%; 
+    right: 10%;
     transform: translateX(-50%);
     font-family: 'BravoSC', sans-serif; 
     font-size: 0.9rem; 
