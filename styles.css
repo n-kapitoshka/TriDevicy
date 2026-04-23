@@ -79,10 +79,12 @@ h1 {
     margin-bottom: 0.7rem;
     max-width: 90%;}
 .new {
-    position: absolute; 
+    position: absolute;
+    bottom: 30%;
 }
 .book {
-    position: absolute; 
+    position: absolute;
+    bottom: 20%;
 }
 
 /* БЛОК 3 */
