@@ -3,7 +3,8 @@
 
 /* ШРИФТЫ */
 @font-face { font-family: 'Enthalpy298'; src: url('fonts/enthalpy298regular.woff'); }
-@font-face { font-family: 'Bebas'; src: url('fonts/Bebas-Neue-Pro-SemiExpanded-Book.woff'); }
+@font-face { font-family: 'Bebas'; src: url('fonts/Bebas-Neue-Pro-SemiExpanded-Book.woff'); 
+@font-face { font-family: 'BravoSC'; src: url('fonts/BravoSC.woff');}
 
 .block1, .block2, .block3  { height: 33vh; position: relative; overflow: hidden; margin-bottom: 2vh;}
 /* БЛОК 1 */
@@ -69,7 +70,7 @@ h1 {
     top: 20%;
     left: 50%; 
     transform: translateX(-50%);
-    font-family: 'Bebas', sans-serif; 
+    font-family: 'BravoSC', sans-serif; 
     font-size: 1rem; 
     color: #c1c1c1; 
     text-align: center;
