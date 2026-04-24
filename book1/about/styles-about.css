@@ -2,8 +2,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 /* ШРИФТЫ */
-@font-face { font-family: 'Enthalpy298'; src: url('start/fonts/enthalpy298regular.woff'); }
-@font-face { font-family: 'Bebas'; src: url('start/fonts/Bebas-Neue-Pro-SemiExpanded-Book.woff'); }
+@font-face { font-family: 'Enthalpy298'; src: url('enthalpy298regular.woff'); }
 
 .block1, .block2, .block3  { height: 33vh; position: relative; overflow: hidden; margin-bottom: 2vh;}
 /* БЛОК 1 */
