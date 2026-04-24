@@ -80,7 +80,7 @@ h1 {
     width: 80%;}
 .book {
     position: absolute;
-    bottom: 23%;
+    bottom: 25%;
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Enthalpy298', sans-serif;
