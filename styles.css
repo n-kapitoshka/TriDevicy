@@ -84,15 +84,16 @@ h1 {
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Enthalpy298', sans-serif;
-    font-size: 1.2rem;
-    color: #699199;}
+    font-size: 1rem;
+    color: #c1c1c1;
+    text-align: center;}
 .new {
     position: absolute;
     bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Enthalpy298', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #de8f28;
     text-align: center;}
 
