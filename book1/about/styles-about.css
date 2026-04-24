@@ -7,3 +7,5 @@
 .hero-image1 {
     width: 100%; height: 50vh; object-fit: cover; display: block;}
 .about1 { position: relative; }
+.authors { 
+    font-family: 'Enthalpy298', sans-serif; }
