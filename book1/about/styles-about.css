@@ -9,11 +9,10 @@
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-    padding: 0 7px;
+    padding: 0 5px;
     width: 100%;}
 .hero-image1, .hero-image2 { 
     width: 40%;
-    max-height: 40vh;
     height: auto;
     object-fit: contain;
     display: block;}
