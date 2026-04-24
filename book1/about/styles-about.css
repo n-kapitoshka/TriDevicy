@@ -4,11 +4,12 @@
 /* ШРИФТЫ */
 @font-face { font-family: 'Enthalpy298'; src: url('enthalpy298regular.woff'); }
 
-.block1, .block2  { height: 33vh; position: relative; overflow: hidden; margin-bottom: 2vh;}
 /* БЛОК 1 */
+.about1 {
+    display: flex;
+    align-items: flex-start;
 .hero-image1, .hero-image2{ 
-    width: 100%; 
+    width: 50%; 
     height: 40vh; 
     object-fit: cover; 
-    position: absolute;
-    top: 0; left: 0;}
+    display: block;}
