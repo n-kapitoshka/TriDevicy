@@ -4,7 +4,7 @@
 /* ШРИФТЫ */
 @font-face { font-family: 'Enthalpy298'; src: url('enthalpy298regular.woff'); }
 
-.block1, .block2, .block3  { height: 33vh; position: relative; overflow: hidden; margin-bottom: 2vh;}
+.block1, .block2  { height: 33vh; position: relative; overflow: hidden; margin-bottom: 2vh;}
 /* БЛОК 1 */
 .hero-image1, .hero-image2{ 
     width: 100%; 
