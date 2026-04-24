@@ -2,7 +2,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 /* ШРИФТЫ */
-@font-face { font-family: 'Enthalpy298'; src: url('about/enthalpy298regular.woff'); }
+@font-face { font-family: 'Enthalpy298'; src: url('book1/about/enthalpy298regular.woff'); }
 
 .block1, .block2, .block3  { height: 33vh; position: relative; overflow: hidden; margin-bottom: 2vh;}
 /* БЛОК 1 */
