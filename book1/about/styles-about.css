@@ -3,5 +3,5 @@
 /* ШРИФТЫ */
 @font-face { font-family: 'Enthalpy298'; src: url('front/enthalpy298regular.woff'); }
 .hero-image1, .hero-image2 {
-    width: 100%; height: 50vh; object-fit: cover;}
+    width: 100%; height: 50vh; object-fit: cover; display: block;}
 .about1 { position: relative; }
