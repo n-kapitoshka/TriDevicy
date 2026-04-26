@@ -27,8 +27,9 @@ body { padding: 6px; box-sizing: border-box; }
     padding: 5px;
     grid-template-columns: repeat(3, 1fr); }
 .about2 .col {
-  display: flex;
-  flex-direction: column;}
+    display: flex;
+    flex-direction: column;
+    font-family: 'Enthalpy298', sans-serif; }
 
 /* БЛОК 3 */
 .about3 {
