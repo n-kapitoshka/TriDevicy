@@ -23,8 +23,11 @@ body { padding: 6px; box-sizing: border-box; }
 /* БЛОК 2 */
 .about2 {
     width: 100%;
-    display: flex;
-    flex-direction: column;}
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+.about2 .col {
+  display: flex;
+  flex-direction: column;}
 
 /* БЛОК 3 */
 .about3 {
