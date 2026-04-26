@@ -63,44 +63,35 @@ body { padding: 0px; box-sizing: border-box; }
     min-height: 33vh;
     position: relative;
     overflow: hidden;
-    margin-bottom: 6px;}
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8% 10%;}
 .block2 .hero-image { 
     width: 100%; 
     height: 100%; 
     object-fit: cover; 
     position: absolute;
-    top: 0; left: 0;}
+    top: 0; left: 0;
+    z-index: 0;}
+.annotation, .book, .new {
+    position: relative;
+    z-index: 1;
+    left: auto;
+    transform: none;
+    font-family: 'Enthalpy298', sans-serif;
+    text-align: center;
+    text-decoration: none;}
 .annotation { 
-    position: absolute; 
-    top: 15%;
-    left: 50%; 
-    transform: translateX(-50%);
-    font-family: 'Enthalpy298', sans-serif; 
     font-size: 0.8rem; 
-    color: #c1c1c1; 
-    text-align: center;
-    margin-bottom: 2vh;
-    width: 80%;}
+    color: #c1c1c1;}
 .book {
-    position: absolute;
-    bottom: 25%;
-    left: 50%;
-    transform: translateX(-50%);
-    font-family: 'Enthalpy298', sans-serif;
     font-size: 1rem;
-    color: #de8f28;
-    text-align: center;
-    text-decoration: none;}
+    color: #de8f28;}
 .new {
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    font-family: 'Enthalpy298', sans-serif;
     font-size: 1rem;
-    color: #b43f13;
-    text-align: center;
-    text-decoration: none;}
+    color: #b43f13;}
 
 /* БЛОК 3 */
 .block3 {
