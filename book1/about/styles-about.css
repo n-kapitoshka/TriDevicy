@@ -34,7 +34,8 @@ body { padding: 6px; box-sizing: border-box; }
     font-family: 'Enthalpy298', sans-serif;
     font-size: 3rem;
     color: #09131f;
-    text-align: center;}
+    text-align: center;
+    text-decoration: none;}
 
 /* БЛОК 3 */
 .about3 {
