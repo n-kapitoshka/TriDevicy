@@ -67,7 +67,7 @@ body { padding: 0px; box-sizing: border-box; }
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 7% 8%;}
+    padding: 7% 5%;}
 .block2 .hero-image { 
     width: 100%; 
     height: 100%; 
