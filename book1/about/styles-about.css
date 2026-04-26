@@ -1,5 +1,5 @@
 html, body { margin: 0;  height: 100% }
-body { padding: 5px; box-sizing: border-box; }
+body { padding: 5 6px; box-sizing: border-box; }
 
 /* ШРИФТЫ */
 @font-face { font-family: 'Enthalpy298'; src: url('enthalpy298regular.woff'); }
@@ -16,7 +16,7 @@ body { padding: 5px; box-sizing: border-box; }
     display: flex;
     justify-content: space-between;}
 .hero-image1, .hero-image2 { 
-    width: 48%;
+    width: 49%;
     display: block;
     height: auto;}
 
