@@ -5,7 +5,7 @@ body { padding: 6px; box-sizing: border-box; }
 @font-face { font-family: 'Enthalpy298'; src: url('enthalpy298regular.woff'); }
 
 .screen {
-    height: calc(100vh-12px);
+    height: calc(100vh - 12px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;}
@@ -16,7 +16,7 @@ body { padding: 6px; box-sizing: border-box; }
     display: flex;
     justify-content: space-between;}
 .hero-image1, .hero-image2 { 
-    width: 48%;
+    width: 49%;
     display: block;
     height: auto;}
 
@@ -30,8 +30,7 @@ body { padding: 6px; box-sizing: border-box; }
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    padding: 5px;}
+    align-items: flex-end;}
 .hero-image3, .hero-image4, .hero-image5 { 
     width: 31%;
     height: auto;
