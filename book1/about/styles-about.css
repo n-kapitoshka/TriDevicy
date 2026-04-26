@@ -7,8 +7,7 @@ body { padding: 6px; box-sizing: border-box; }
 .screen {
     height: calc(100vh - 12px);
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;}
+    flex-direction: column;}
 
 /* БЛОК 1 */
 .about1 {
@@ -22,9 +21,9 @@ body { padding: 6px; box-sizing: border-box; }
 
 /* БЛОК 2 */
 .about2 {
-    width: 100%;
+    flex: 1 1 auto;
     display: grid;
-    padding: 5px;
+    padding: 6px;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
 }
