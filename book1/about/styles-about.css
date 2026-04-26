@@ -1,11 +1,11 @@
 html, body { margin: 0;  height: 100% }
-body { padding: 5 px 8px; box-sizing: border-box; }
+body { padding: 6px; box-sizing: border-box; }
 
 /* ШРИФТЫ */
 @font-face { font-family: 'Enthalpy298'; src: url('enthalpy298regular.woff'); }
 
 .screen {
-    height: calc(100vh-10px);
+    height: calc(100vh-12px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;}
@@ -16,7 +16,7 @@ body { padding: 5 px 8px; box-sizing: border-box; }
     display: flex;
     justify-content: space-between;}
 .hero-image1, .hero-image2 { 
-    width: 49%;
+    width: 48%;
     display: block;
     height: auto;}
 
