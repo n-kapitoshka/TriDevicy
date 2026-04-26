@@ -16,7 +16,7 @@ body { padding: 0px; box-sizing: border-box; }
     min-height: 0;
     position: relative;
     overflow: hidden;
-    margin-bottom: 6px;}
+    margin-bottom: 5px;}
 .block1 .hero-image {
     width: 100%;
     height: 100%;
@@ -64,11 +64,11 @@ body { padding: 0px; box-sizing: border-box; }
     min-height: 33vh;
     position: relative;
     overflow: hidden;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 8% 8%;}
+    padding: 7% 8%;}
 .block2 .hero-image { 
     width: 100%; 
     height: 100%; 
