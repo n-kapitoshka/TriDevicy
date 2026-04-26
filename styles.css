@@ -95,7 +95,7 @@ body { padding: 0px; box-sizing: border-box; }
 
 /* БЛОК 3 */
 .block3 {
-    height: 33vh;
+    min-height: 33vh;
     position: relative;
     overflow: hidden;}
 .block3 .hero-image {
