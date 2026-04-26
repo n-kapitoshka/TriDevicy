@@ -16,7 +16,7 @@ body { padding: 5 px 8px; box-sizing: border-box; }
     display: flex;
     justify-content: space-between;}
 .hero-image1, .hero-image2 { 
-    width: 50%;
+    width: 49%;
     display: block;
     height: auto;}
 
