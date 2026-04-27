@@ -6,5 +6,9 @@ body { padding: 10px 3px; box-sizing: border-box; background-color: #c1c1c1; ove
 
 .container {
     display: flex;
-    flex-direction: column;
-    gap: 5px;}
+    flex-direction: column;}
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 0 10px 0;}
