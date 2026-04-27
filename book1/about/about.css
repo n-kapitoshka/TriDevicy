@@ -1,5 +1,5 @@
 html, body { margin: 0;  height: 100% }
-body { padding: 6px; box-sizing: border-box; }
+body { padding: 6px; box-sizing: border-box; background-color: #c1c1c1;}
 
 /* ШРИФТЫ */
 @font-face { font-family: 'Enthalpy298'; src: url('enthalpy298regular.woff'); }
