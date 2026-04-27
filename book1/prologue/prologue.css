@@ -12,6 +12,8 @@ body { padding: 10px 3px; box-sizing: border-box; background-color: #c1c1c1; }
 .link {
     width: 100%;
     margin: 10px auto 0;
+    padding: 0 5px;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;}
