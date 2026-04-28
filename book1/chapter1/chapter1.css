@@ -2,7 +2,7 @@ html, body { margin: 0;  min-height: 100%; overflow-x: hidden;}
 body { padding: 10px 5px; box-sizing: border-box; background-color: #c1c1c1; overflow-y: auto;}
 
 /* ШРИФТЫ */
-@font-face { font-family: 'TTNorms'; src: url('TTNorms-Regular.woff'); }
+@font-face { font-family: 'TTNorms-Regular'; src: url('TTNorms-Regular.woff'); }
 @font-face { font-family: 'comic'; src: url('comic.woff'); }
 
 .container {
@@ -15,7 +15,7 @@ body { padding: 10px 5px; box-sizing: border-box; background-color: #c1c1c1; ove
     margin: 0 0 30px 0;}
 .text-block {
     padding: 0 10px;
-    font-family: 'TTNorms', sans-serif;
+    font-family: 'TTNorms-Regular', sans-serif;
     color: #09131f;
     font-size: 1rem;
     text-align: justify;}
