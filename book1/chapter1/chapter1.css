@@ -22,12 +22,19 @@ body { padding: 10px 5px; box-sizing: border-box; background-color: #c1c1c1; ove
 .text-block p {
     text-indent: 1.5em;
     margin: 0 0 1em 0;}
+.italics {
+    font-style: italic;
+    padding: 0 10px;
+    font-family: 'TTNorms', sans-serif;
+    color: #09131f;
+    font-size: 1rem;
+    text-align: justify;}
 .text-data {
     padding: 0 10px;
+    font-family: 'comic', sans-serif;
     color: #09131f;
     font-size: 0.8rem;
-    text-align: right;
-    font-family: 'comic', sans-serif;}
+    text-align: right;}
 .link {
     width: 100%;
     margin: 10px auto 10px;
