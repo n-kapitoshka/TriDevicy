@@ -34,6 +34,13 @@ body { padding: 6px; box-sizing: border-box; background-color: #c1c1c1;}
     font-size: 3rem;
     color: #09131f;
     text-align: center;}
+.about2 .start {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Enthalpy298', sans-serif;
+    font-size: 1rem;
+    color: #680707;
+    text-align: center;}
 .about2 a {
     text-decoration: none;
     color: #09131f;}
