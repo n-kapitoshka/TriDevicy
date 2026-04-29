@@ -33,14 +33,10 @@ body { padding: 10px 5px; box-sizing: border-box; background-color: #c1c1c1; ove
 .text-block p {
     text-indent: 1.5em;
     margin: 0 0 1em 0;}
-.text-block p.big-space {
-    margin-top: 3em;}
-.color {
-    color: #680707;}
-.bold {
-    font-family: 'TTNorms-BoldItalic', sans-serif;}
-.italics {
-    font-family: 'TTNorms-Italic', sans-serif;}
+.text-block p.big-space {margin-top: 3em;}
+.color {color: #680707;}
+.bold {font-family: 'TTNorms-BoldItalic', sans-serif;}
+.italics {font-family: 'TTNorms-Italic', sans-serif;}
 .text-data {
     padding: 0 10px;
     font-family: 'comic', sans-serif;
