@@ -37,3 +37,11 @@ body { padding: 10px 5px; box-sizing: border-box; background-color: #c1c1c1; ove
     margin-top: 3em;}
 .bold {
     font-family: 'TTNorms-BoldItalic', sans-serif;}
+.italics {
+    font-family: 'TTNorms-Italic', sans-serif;}
+.text-data {
+    padding: 0 10px;
+    font-family: 'comic', sans-serif;
+    color: #09131f;
+    font-size: 0.8rem;
+    text-align: right;}
