@@ -6,3 +6,19 @@ body { padding: 10px 5px; box-sizing: border-box; background-color: #c1c1c1; ove
 @font-face { font-family: 'TTNorms-Italic'; src: url('TTNorms-Italic.woff'); }
 @font-face { font-family: 'TTNorms-BoldItalic'; src: url('TTNorms-BoldItalic.woff'); }
 @font-face { font-family: 'comic'; src: url('comic.woff'); }
+
+.container {
+    display: flex;
+    flex-direction: column;}
+.hero-image-ch {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 0 30px 0;}
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    padding: 0 10px;
+    box-sizing: border-box;}
