@@ -22,3 +22,14 @@ body { padding: 10px 5px; box-sizing: border-box; background-color: #c1c1c1; ove
     margin: 10px 0;
     padding: 0 10px;
     box-sizing: border-box;}
+.text-block {
+    padding: 0 10px;
+    font-family: 'TTNorms-Regular', sans-serif;
+    color: #09131f;
+    font-size: 1rem;
+    hyphens: auto;
+    hyphenate-limit-chars: 8 4 4;
+    text-align: justify;}
+.text-block p {
+    text-indent: 1.5em;
+    margin: 0 0 1em 0;}
