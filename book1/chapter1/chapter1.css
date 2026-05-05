@@ -20,7 +20,7 @@ body { padding: 10px 5px; box-sizing: border-box; background-color: #c1c1c1; ove
     max-width: 30vw;
     height: auto;
     display: block;
-    margin: 10px auto 10px auto;
+    margin: 30px auto 0 px auto;
     object-fit: contain;}
 .hero-image {
     width: 100%;
