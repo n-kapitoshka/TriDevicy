@@ -40,7 +40,7 @@ body { padding: 10px 5px; box-sizing: border-box; background-color: #c1c1c1; ove
 .text-block p {
     text-indent: 1.5em;
     margin: 0 0 1em 0;}
-.text-block p.big-space {margin-top: 3em;}
+.text-block p.big-space {margin-top: 4em;}
 .color {color: #680707;}
 .bold {font-family: 'TTNorms-BoldItalic', sans-serif;}
 .italics {font-family: 'TTNorms-Italic', sans-serif;}
